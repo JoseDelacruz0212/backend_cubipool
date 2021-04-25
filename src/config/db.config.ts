@@ -9,11 +9,11 @@ import { OfertaCubiculo } from "../entity/ofertaCubiculo.entity";
 config();
  const DB_CONFIGURATION :ConnectionOptions = {
     type: "postgres",
-    host: process.env.DATABASE_HOST,
+    host: '127.0.0.1',
     port: parseInt(process.env.DATABASE_PORT),
-    username: process.env.DATABASE_USERNAME,
-    password: process.env.DATABASE_PASSWORD,
-    database: process.env.DATABASE_NAME,
+    username: 'postgres',
+    password: 'admin',
+    database: 'cubipool',
     entities: [User, Reserva,Cubiculo,UserManyReserva, Cron,OfertaCubiculo],
     synchronize: false,
     logging: false,
