@@ -13,14 +13,10 @@ config();
     port: parseInt(process.env.DATABASE_PORT),
     username: process.env.DATABASE_USERNAME,
     password: process.env.DATABASE_PASSWORD,
-    extra:{ssl:false},
     database: process.env.DATABASE_NAME,
      entities: [User, Reserva, Cubiculo, UserManyReserva, Cron, OfertaCubiculo],
      synchronize: false,
      logging: false,
-     ssl: {
-        rejectUnauthorized: false
-     },
     migrationsRun:true,
     migrationsTableName: 'migration',
     migrations: ['dist/migrations/*.js'],
