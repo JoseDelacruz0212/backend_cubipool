@@ -17,7 +17,13 @@ config();
      entities: [User, Reserva, Cubiculo, UserManyReserva, Cron, OfertaCubiculo],
      synchronize: false,
      logging: false,
-    migrationsRun:true,
+     migrationsRun: true,
+     ssl: true,
+     extra: {
+         ssl: {
+            rejectUnauthorized: false,
+        },
+    },
     migrationsTableName: 'migration',
     migrations: ['dist/migrations/*.js'],
     cli: {
