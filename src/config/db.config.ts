@@ -18,7 +18,7 @@ config();
      synchronize: false,
      logging: false,
      migrationsRun: true,
-     ssl: true,
+     ssl: false,
      extra: {
          ssl: {
             rejectUnauthorized: false,
