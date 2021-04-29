@@ -24,12 +24,6 @@ config();
             rejectUnauthorized: false,
         },
     },
-    migrationsTableName: 'migration',
-    migrations: ['dist/migrations/*.js'],
-    cli: {
-        "entitiesDir": "dist/entity/*.js",
-        "migrationsDir": "src/migrations"
-    },
     
   
 }
