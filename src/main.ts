@@ -10,7 +10,7 @@ async function bootstrap() {
     const options = new DocumentBuilder()
         .setTitle('Cubiculo Pool')
         .setDescription('Descripcion del API')
-        .setVersion('1.0')
+        .setVersion('1.1')
         .addTag('UPC')
         .build();
 
