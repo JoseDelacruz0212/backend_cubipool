@@ -17,7 +17,7 @@ config();
      entities: [User, Reserva, Cubiculo, UserManyReserva, Cron, OfertaCubiculo],
      synchronize: false,
      logging: false,
-     migrationsRun: false,
+     migrationsRun: true,
      ssl: true,
      extra: {
          ssl: {
