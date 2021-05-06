@@ -15,9 +15,9 @@ config();
     password: process.env.DATABASE_PASSWORD,
     database: process.env.DATABASE_NAME,
      entities: [User, Reserva, Cubiculo, UserManyReserva, Cron, OfertaCubiculo],
-     synchronize: false,
+     synchronize: true,
      logging: false,
-     migrationsRun: false,
+     migrationsRun: true,
      ssl: true,
      extra: {
          ssl: {
@@ -25,7 +25,6 @@ config();
         },
     },
     
-  
 }
 
 export =  DB_CONFIGURATION
