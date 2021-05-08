@@ -24,26 +24,6 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# Verifiquen siempre trabajar en su rama
-# Siempre hace pull a la rama develop
-# Importante 
-La rama master solo se usarà para realizar release x.y.z
-
-Documentar cada versionamiento que se realize
-
-Todos los cambios realizados se subiran a la rama develop
-
-Trabajar en sus propias ramas y hacer luego hacer un merge a develop
-
-
-
-Una vez realizado los cambios en mi rama 
-
-```bash
-$ git add .
-$ git commit -m "Funcionalidad"
-```
-
 
 ## Installation
 
