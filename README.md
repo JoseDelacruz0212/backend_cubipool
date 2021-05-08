@@ -37,27 +37,13 @@ Trabajar en sus propias ramas y hacer luego hacer un merge a develop
 
 
 
-
-```bash
-$ git branch Jair
-$ git checkout Jair
-```
-
 Una vez realizado los cambios en mi rama 
 
 ```bash
 $ git add .
 $ git commit -m "Funcionalidad"
-$ git push origin Jair
-$ git checkout develop
-$ git merge Jair
-$ git push origin develop
 ```
 
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
 
